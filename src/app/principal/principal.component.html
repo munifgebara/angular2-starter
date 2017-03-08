@@ -1,3 +1,5 @@
 <h1>Página Principal</h1>
 <p>{{mensagem}}</p>
+<p-autoComplete [(ngModel)]="texto" [suggestions]="resultados" (completeMethod)="busca($event)"></p-autoComplete>
+
  
